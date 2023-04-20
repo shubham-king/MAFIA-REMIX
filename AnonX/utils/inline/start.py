@@ -47,10 +47,5 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="😎 ᴍᴀɪɴᴛᴀɪɴᴇʀ 😎", user_id=OWNER
             )
         ],
-        [
-            InlineKeyboardButton(
-                text="💫 sᴏᴜʀᴄᴇ 💫", url=config.UPSTREAM_REPO
-            )
-        ],
      ]
     return buttons
